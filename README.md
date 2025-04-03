@@ -12,7 +12,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 |DNS175-C1C08-CACHE    |8     |      |8      |4   |     |0.5            |
 |DNS175-C1C10-EXPRESS  |8     |      |8      |4   |     |0.5            |
 |DNS175-C1C12-WIDEIP   |8     |      |8      |4   |     |0.5            |
-|DNS175-C1C14-REMOTE   |8     |      |8      |4   |     |0.5            |
+|DNS175-C1C14-RESOLVE  |8     |      |8      |4   |     |0.5            |
 |DNS175-C2B05-IQUERY   |8     |      |8      |4   |     |0.5            |
 |DNS175-C2B10-POOL     |8     |      |8      |4   |     |0.5            |
 |DNS175-C2C03-OBJECT   |8     |      |8      |4   |     |0.5            |
@@ -35,7 +35,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 |DNS175-C1C08-CACHE    |Hands-on Lab: Resolve DNS Queries from Cache                                                      |1           |120       |X   |X       |X       |        |
 |DNS175-C1C10-EXPRESS  |Hands-on Lab: Implementing DNS Express                                                            |1           |120       |X   |X       |X       |        |
 |DNS175-C1C12-WIDEIP   |Hands-on Lab: Configure a Simple Wide IP                                                          |1           |120       |X   |X       |X       |        |
-|DNS175-C1C14-REMOTE   |Hands-on Lab: Resolve Using a Remote DNS Server                                                   |1           |120       |X   |X       |X       |        |
+|DNS175-C1C14-RESOLVE  |Hands-on Lab: Resolve Using a Remote DNS Server                                                   |1           |120       |X   |X       |X       |        |
 |DNS175-C2B05-IQUERY   |Hands-on Lab: Configure Data Centers, Servers, and Establish iQuery Communication                 |1           |200       |X   |X       |X       |        |
 |DNS175-C2B10-POOL     |Hands-on Lab: Configure a Wide IP Pool and a Wide IP                                              |1           |200       |X   |X       |X       |        |
 |DNS175-C2C03-OBJECT   |Hands-on Lab: Test Effects of Object State Change on DNS Resolution                               |1           |200       |X   |X       |X       |        |

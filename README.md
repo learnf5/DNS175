@@ -5,7 +5,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 ## Lab VM RAM (GB)
 
 |Lab Number            |bigip1|bigip2|bigip17|jump|jump2|training server|
-|----------------------|------|------|-------|----|-----|---------------|
+|----------------------|-----:|-----:|------:|---:|----:|--------------:|
 |DNS175-C1A01-TMSH     |8     |      |8      |4   |     |0.5            |
 |DNS175-C1C04-PROVISION|8     |      |8      |4   |     |0.5            |
 |DNS175-C1C06-LB       |8     |      |8      |4   |     |0.5            |
@@ -28,7 +28,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 ## Lab Name, Duration (hr) and VLANs
 
 |Lab Number            |Lab Name                                                                            |Lab Duration|Lab Series|Mgmt|External|Internal|
-|----------------------|------------------------------------------------------------------------------------|------------|----------|----|--------|--------|
+|----------------------|------------------------------------------------------------------------------------|-----------:|---------:|:--:|:------:|:------:|
 |DNS175-C1A01-TMSH     |Configure BIG-IP using TMSH                                                         |1           |100       |X   |X       |X       |
 |DNS175-C1C04-PROVISION|Provision the BIG-IP System, Confirm Network Configuration and Create a DNS Listener|1           |100       |X   |X       |X       |
 |DNS175-C1C06-LB       |Load Balance DNS Queries                                                            |1           |100       |X   |X       |X       |

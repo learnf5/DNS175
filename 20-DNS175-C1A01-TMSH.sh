@@ -8,7 +8,7 @@ sudo scp /tmp/train_base.ucs 192.168.1.31:/var/local/ucs/
 sudo ssh 192.168.1.31 tmsh load sys config merge file $archive
 
 # download and copy files need for Load Balance and Cache lab segments
-for archive in create_dns_listener.scf load_balance_dns_queries.scf; do
-  curl --silent https://raw.githubusercontent.com/learnf5/dns/main/$archive --output /tmp/$archive
-  sudo scp /tmp/$archive 192.168.1.31:/var/local/scf/
-done
+###for archive in load_balance_dns_queries.scf; do
+  ###curl --silent https://raw.githubusercontent.com/learnf5/dns/main/$archive --output /tmp/$archive
+  ###sudo scp /tmp/$archive 192.168.1.31:/var/local/scf/
+###done

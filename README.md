@@ -10,7 +10,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 |DNS175-C1C04-PROVISION|8     |      |8      |4   |     |0.5            |  *none*                     |
 |DNS175-C1C06-LB       |8     |      |8      |4   |     |0.5            |create_dns_listener.scf      |
 |DNS175-C1C08-CACHE    |8     |      |8      |4   |     |0.5            |load_balance_dns_queries.scf |
-|DNS175-C1C10-EXPRESS  |8     |      |8      |4   |     |0.5            |resolve_dsn_queries_cache.scf|
+|DNS175-C1C10-EXPRESS  |8     |      |8      |4   |     |0.5            |resolve_dns_queries_cache.scf|
 |DNS175-C1C12-WIDEIP   |8     |      |8      |4   |     |0.5            |implement_dns_express.scf    |
 |DNS175-C1C14-RESOLVE  |8     |      |8      |4   |     |0.5            |configure_simple_wideip.scf  |
 |DNS175-C2B05-IQUERY   |8     |      |8      |4   |     |0.5            ||

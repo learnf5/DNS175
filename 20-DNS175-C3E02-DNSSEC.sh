@@ -1,5 +1,6 @@
 # download archive files from github, copy to bigip1 and run load/merge
-archive=configure_wideip.scf
+#archive=configure_wideip.scf
+archive=test_global_availability_lb.scf
 curl --silent https://raw.githubusercontent.com/learnf5/dns/main/$archive             --output /tmp/$archive
 curl --silent https://raw.githubusercontent.com/learnf5/admin/main/train_base.scf     --output /tmp/train_base.scf
 curl --silent https://raw.githubusercontent.com/learnf5/admin/main/train_base_171.ucs --output /tmp/train_base.ucs

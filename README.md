@@ -4,26 +4,26 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 
 ## Lab VM RAM (GB)
 
-|Lab Number              |bigip1|bigip2|bigip17|jump|jump2|training server|SCF file                       |
-|------------------------|-----:|-----:|------:|---:|----:|--------------:|-------------------------------|
-|**DNS175-C1A01-TMSH**   |8     |      |8      |4   |     |0.5            |cfg_w_tmsh.scf                 |
-|~DNS175-C1C04-PROVISION~|~8~   |      |~8~    |~4~ |     |~0.5~          |  ~*none*~                     |
-|~DNS175-C1C06-LB~       |~8~   |      |~8~    |~4~ |     |~0.5~          |~create_dns_listener.scf~      |
-|**DNS175-C1C08-CACHE**  |8     |      |8      |4   |     |0.5            |load_balance_dns_queries.scf   |
-|~DNS175-C1C10-EXPRESS~  |~8~   |      |~8~    |~4~ |     |~0.5~          |~resolve_dns_queries_cache.scf~|
-|~DNS175-C1C12-WIDEIP~   |~8~   |      |~8~    |~4~ |     |~0.5~          |~implement_dns_express.scf~    |
-|~DNS175-C1C14-RESOLVE~  |~8~   |      |~8~    |~4~ |     |~0.5~          |~configure_simple_wideip.scf~  |
-|DNS175-C2B05-IQUERY     |8     |      |8      |4   |     |0.5            ||
-|**DNS175-C2B10-WIDEIP** |8     |      |8      |4   |     |0.5            ||
-|~DNS175-C2C03-OBJECT~   |~8~   |      |~8~    |~4~ |     |~0.5~          ||
-|DNS175-C3A03-PROBE      |8     |      |8      |4   |     |0.5            ||
-|DNS175-C3B08-PERSIST    |8     |      |8      |4   |4    |0.5            ||
-|DNS175-C3B09-RATIO      |8     |      |8      |4   |     |0.5            ||
-|DNS175-C3C03-RESUME     |8     |      |8      |4   |4    |0.5            ||
-|DNS175-C3D06-MONITOR    |8     |      |8      |4   |     |0.5            ||
-|**DNS175-C3E02-DNSSEC** |8     |      |8      |4   |     |0.5            ||
-|~DNS175-C3E04-CLIENT~   |~8~   |      |~8~    |~4~ |~4~  |~0.5~          ||
-|DNS175-C3E07-SYNC       |8     |8     |8      |4   |4    |0.5            ||
+|Lab Number              |bigip1|bigip2|bigip17|jump|jump2|training server|SCF file                         |
+|------------------------|-----:|-----:|------:|---:|----:|--------------:|---------------------------------|
+|**DNS175-C1A01-TMSH**   |8     |      |8      |4   |     |0.5            |cfg_w_tmsh.scf                   |
+|~DNS175-C1C04-PROVISION~|~8~   |      |~8~    |~4~ |     |~0.5~          |  ~*none*~                       |
+|~DNS175-C1C06-LB~       |~8~   |      |~8~    |~4~ |     |~0.5~          |~create_dns_listener.scf~        |
+|**DNS175-C1C08-CACHE**  |8     |      |8      |4   |     |0.5            |load_balance_dns_queries.scf     |
+|~DNS175-C1C10-EXPRESS~  |~8~   |      |~8~    |~4~ |     |~0.5~          |~resolve_dns_queries_cache.scf~  |
+|~DNS175-C1C12-WIDEIP~   |~8~   |      |~8~    |~4~ |     |~0.5~          |~implement_dns_express.scf~      |
+|~DNS175-C1C14-RESOLVE~  |~8~   |      |~8~    |~4~ |     |~0.5~          |~configure_simple_wideip.scf~    |
+|DNS175-C2B05-IQUERY     |8     |      |8      |4   |     |0.5            |create_dns_listener.scf          |
+|**DNS175-C2B10-WIDEIP** |8     |      |8      |4   |     |0.5            |add_non_f5_server.scf            |
+|~DNS175-C2C03-OBJECT~   |~8~   |      |~8~    |~4~ |     |~0.5~          |~configure_wideip.scf~           |
+|DNS175-C3A03-PROBE      |8     |      |8      |4   |     |0.5            |configure_wideip.scf             |
+|DNS175-C3B08-PERSIST    |8     |      |8      |4   |4    |0.5            |configure_wideip.scf             |
+|DNS175-C3B09-RATIO      |8     |      |8      |4   |     |0.5            |configure_wideip.scf             |
+|DNS175-C3C03-RESUME     |8     |      |8      |4   |4    |0.5            |test_global_availability_lb.scf  |
+|DNS175-C3D06-MONITOR    |8     |      |8      |4   |     |0.5            |test_topology_lb.scf             |
+|**DNS175-C3E02-DNSSEC** |8     |      |8      |4   |     |0.5            |test_global_availability_lb.scf  |
+|~DNS175-C3E04-CLIENT~   |~8~   |      |~8~    |~4~ |~4~  |~0.5~          |~test_global_availability_lb.scf~|
+|DNS175-C3E07-SYNC       |8     |8     |8      |4   |4    |0.5            |configure_wideip.scf             |
 
 ## Lab Name, Duration (hr) and VLANs
 

@@ -15,7 +15,7 @@ Notes, build scripts, and associated files for the Configuring BIG-IP DNS versio
 |~DNS175-C1C14-RESOLVE~  |~8~   |      |~8~    |~4~ |     |~0.5~          |~configure_simple_wideip.scf~  |
 |DNS175-C2B05-IQUERY     |8     |      |8      |4   |     |0.5            ||
 |DNS175-C2B10-WIDEIP     |8     |      |8      |4   |     |0.5            ||
-|~DNS175-C2C03-OBJECT~   |~8~   |      |~8 ~   |~4~ |     |~0.5~          ||
+|~DNS175-C2C03-OBJECT~   |~8~   |      |~8~    |~4~ |     |~0.5~          ||
 |DNS175-C3A03-PROBE      |8     |      |8      |4   |     |0.5            ||
 |DNS175-C3B08-PERSIST    |8     |      |8      |4   |4    |0.5            ||
 |DNS175-C3B09-RATIO      |8     |      |8      |4   |     |0.5            ||

@@ -1,0 +1,5 @@
+#TMSH-VERSION: 17.1.0
+
+sys provision gtm {
+    level nominal
+}

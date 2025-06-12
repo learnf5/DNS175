@@ -16,7 +16,6 @@ curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/$archive
 sudo scp /tmp/$archive2          192.168.2.31:/var/local/scf/
 sudo ssh 192.168.2.31 tmsh load sys config merge file $archive2
 
-# confirm bigip1 and bigip2 are active again 
+# confirm bigip2 is active again 
 sleep 5
-for i in {1..30}; do [ "$(sudo ssh root@192.168.1.31 cat /var/prompt/ps1)" = "Active" ] && break; sleep 5; done
 for i in {1..30}; do [ "$(sudo ssh root@192.168.2.31 cat /var/prompt/ps1)" = "Active" ] && break; sleep 5; done
